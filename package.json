@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LusineHovs/Node-HWK1.git"
+  },
+  "author": "Lusine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LusineHovs/Node-HWK1/issues"
+  },
+  "homepage": "https://github.com/LusineHovs/Node-HWK1#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.9"
+  }
+}
