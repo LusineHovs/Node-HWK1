@@ -11,11 +11,12 @@ mongoose.connect('mongodb://localhost/Node-HWK1');
 //app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get('/trainings', trainingController.getTrainings);
+app.get('/trainings', trainingController.getTrainings); 
 app.post('/trainings', trainingController.createTraining);
-
 app.get('/trainings/:id', trainingController.getTraining);
 app.patch('/trainings/:id', trainingController.updateTraining);
 app.delete('/trainings/:id', trainingController.deleteTraining);
 
 module.exports = app;
+
+//MongoClient.connect({ useNewUrlParser: true })
